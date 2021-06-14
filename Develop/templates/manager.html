@@ -1,15 +1,15 @@
 <!-- Starter file provided by Instructor (03/09/2021) AC -->
 
-<div>
-    <div>
+<div class="card m-3 shadow rounded" style="width: 14rem;">
+    <div class="card-title p-3 text-light bg-primary">
         <h2>{{ name }}</h2>
         <h3>{{ role }}</h3>
     </div>
-    <div>
-        <ul>
-            <li>ID: {{ id }}</li>
-            <li>Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li>Office number: {{ officeNumber }}</li>
+    <div class="card-body align-items-center">
+        <ul class="list-group">
+            <li class="list-group-item">ID: {{ id }}</li>
+            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+            <li class="list-group-item">Office number: {{ officeNumber }}</li>
         </ul>
     </div>
 </div>
